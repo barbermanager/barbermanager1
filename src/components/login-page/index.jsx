@@ -1,6 +1,14 @@
 import styles from './login.module.css'
+import {useNavigate} from "react-router-dom";
 
 const Login = () => {
+    let navigate;
+    navigate = useNavigate();
+
+    const forgetPassword = () => {
+        navigate('/forget-password')
+    };
+
     return (
         <div className={styles.container}>
             <div className={styles.content}>
@@ -19,7 +27,7 @@ const Login = () => {
                         <label for='lembrar' className={styles.checkText}>Lembrar minha senha</label>
                     </div>
                     <button className={styles.btn}>Entrar</button>
-                    <span className={styles.forget}>Perdeu sua senha ?</span>
+                    <span className={styles.forget} onClick={() => forgetPassword()}>Perdeu sua senha ?</span>
                 </div>
 
             </div>
