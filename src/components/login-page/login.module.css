@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.underxx {
+    color: #2854c1;
+    width: 101px;
+    border: 2px solid #2854c1;
+}
+
+.title {
+    padding: 12px;
+}
+
+.title span {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.chekk {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+}
+
+.checkText {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    width: 390px;
+    border-radius: 15px;
+    padding: 12px;
+    background: linear-gradient(90deg, #7B23A9 0%, #D23761 100%);
+    font-weight: bold;
+    color: #fff;
+}
+
+.textInput {
+    width: 360px;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.forget {
+    color: #648AD6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    font-style: normal;
+}
