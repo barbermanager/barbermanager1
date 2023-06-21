@@ -5,7 +5,7 @@ const Login = () => {
     let navigate;
     navigate = useNavigate();
 
-    const Logon = () {
+    const Logon = () => {
         navigate('Home')
     }
 
