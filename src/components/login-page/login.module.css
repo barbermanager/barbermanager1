@@ -19,6 +19,8 @@
 
 .title {
     padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 145px;
 }
 
 .title span {
@@ -34,6 +36,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+
 }
 
 .chekk {
@@ -44,10 +47,12 @@
 .checkText {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .btn {
     width: 390px;
+    height: 50px;
     border-radius: 15px;
     padding: 12px;
     background: linear-gradient(90deg, #7B23A9 0%, #D23761 100%);
@@ -58,8 +63,15 @@
 .textInput {
     width: 360px;
     border-radius: 15px;
-    padding: 12px;
+    height: 50px;
 }
+
+.textInput::placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .forget {
     color: #648AD6;
@@ -67,4 +79,8 @@
     font-weight: 600;
     font-size: 12px;
     font-style: normal;
+}
+
+.forget:hover {
+    cursor: pointer;
 }
